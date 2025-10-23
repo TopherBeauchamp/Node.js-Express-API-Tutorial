@@ -2,7 +2,7 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import jest from "eslint-plugin-jest";
-import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
+//import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 
 export default [
   {
@@ -32,5 +32,5 @@ export default [
       ],
     },
   },
-  eslintPluginPrettierRecommended,
+  //eslintPluginPrettierRecommended,
 ];
