@@ -6,13 +6,13 @@ GET http://localhost:3000/health HTTP/1.1
 GET http://localhost:3000/v1/tasks HTTP/1.1
 
 ### GET task by ID
-GET http://localhost:3000/v1/tasks/1 HTTP/1.1
+GET http://localhost:3000/v1/tasks/cmh43a1qx000104l45d1g5yl5 HTTP/1.1
 
 ### GET projects
 GET http://localhost:3000/v1/projects HTTP/1.1
 
 ### GET project by ID
-GET http://localhost:3000/v1/projects/1 HTTP/1.1
+GET http://localhost:3000/v1/projects/cmh43e01r000304l439ex2hc8 HTTP/1.1
 
 ### GET project's tasks
 GET http://localhost:3000/v1/projects/1/tasks HTTP/1.1
